@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Microsoft yahei';
   font-size:14px;
   font-weight: 400;
   overflow-y:scroll;
@@ -434,6 +434,7 @@ PORTFOLIO GRID
 li.grid-item{
   width:360px;
   position:relative;
+  margin-top: 20px;
   float:left;
   padding:15px;
 }
@@ -441,20 +442,61 @@ li.grid-item{
 .grid-hover{
   position: absolute;
   width:360px;
+  padding: 20px;
+  box-sizing: border-box;
   height: 100%;
   top:0;
-  background: white;
+  color: #666;
+  background: #d7b98e;
   z-index: 2;
-  opacity: 0;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in; 
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in; 
 }
-
+.project{
+  margin-top: 20px;
+}
+.project > *{
+  margin-bottom: 20px;
+}
+.project-name{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.project-user{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.project-url{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.project-content{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  line-height: 23px;
+}
+.project-outstanding{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  line-height: 23px;
+}
+.project-time{
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
 .grid-hover:hover{
-  opacity: 0.9;
+  opacity: 1;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.3);
 }
 
 .grid-hover h1{
