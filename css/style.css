@@ -447,7 +447,9 @@ li.grid-item{
   height: 100%;
   top:0;
   color: #666;
-  background: #d7b98e;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
   z-index: 2;
   opacity: 1;
   -webkit-transition: all 0.3s ease-in;
